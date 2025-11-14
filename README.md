@@ -2,14 +2,14 @@
 
 <div align="center">
 
-![Golang](https://img.shields.io/badge/-Golang-181818?logo=go)&nbsp;
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-212121?logo=postgresql)&nbsp;
+![Golang](https://img.shields.io/badge/-Golang-F9FAFC?logo=go)&nbsp;
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-F9FAFC?logo=postgresql)&nbsp;
 ![Docker](https://img.shields.io/badge/-Docker-F9FAFC?logo=docker)&nbsp;
-![Bruno](https://img.shields.io/badge/-Bruno-1D1D1D?logo=bruno)&nbsp;
+![Bruno](https://img.shields.io/badge/-Bruno-F9FAFC?logo=bruno)&nbsp;
 
 </div>
 
-<p align="center">A simple RESTful API using **Golang**, **Gin**, and **GORM**</p>
+<p align="center">A simple RESTful API using <b>Golang</b>, <b>Gin</b>, and <b>GORM</b></p>
 
 ---
 
