@@ -1,0 +1,39 @@
+project_name: golang-simple-restful-api
+
+builds:
+    - id: main
+      main: ./cmd/app/main.go
+      binary: golang-api
+      env:
+          - CGO_ENABLED=0
+      goos:
+          - linux
+          - windows
+          - darwin
+      goarch:
+          - amd64
+          - arm64
+
+archives:
+    - format: tar.gz
+      name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+      files:
+          - LICENSE
+          - README.md
+          - version.txt
+
+nfpms:
+    - id: deb_package
+      package_name: golang-api
+      formats:
+          - deb
+
+checksum:
+    name_template: "checksums.txt"
+
+release:
+    github:
+        owner: armandwipangestu
+        name: golang-simple-restful-api
+        draft: false
+        prerelease: false
