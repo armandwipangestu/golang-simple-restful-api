@@ -1,5 +1,7 @@
 FROM golang:1.25-alpine AS builder
 
+LABEL org.opencontainers.image.source="https://github.com/armandwipangestu/golang-simple-restful-api"
+
 WORKDIR /app
 
 COPY go.mod go.sum ./
