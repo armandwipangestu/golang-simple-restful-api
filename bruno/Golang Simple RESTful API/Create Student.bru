@@ -1,0 +1,22 @@
+meta {
+  name: Create Student
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3090/api/students
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "John Doe",
+    "age": 30,
+    "address": {
+      "city": "Tokyo",
+      "street": "Shibuya Crossing"
+    }
+  }
+}

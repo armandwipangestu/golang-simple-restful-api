@@ -1,0 +1,41 @@
+# Binaries
+/bin/
+/dist/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Logs
+*.log
+logs/
+tmp/
+
+# Dependency directories
+vendor/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Environment files (sangat penting)
+/.env*
+!.env.example
+!.env.example.postgres
+
+# Docker artifacts
+/docker-data/
+/postgres-data/
+
+# Cache
+*.out
+*.cache

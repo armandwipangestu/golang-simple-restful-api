@@ -1,0 +1,34 @@
+# Git
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Env
+.env
+.env.*
+
+# OS / Temp
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode
+.idea
+
+# Build output
+/bin
+/build
+/dist
+
+# Documentation
+README.md
+
+# Local volumes or data
+postgres-data/
+docker-data/
+
+# Tests
+tests/
