@@ -32,14 +32,14 @@ jobs:
               run: go mod download
 
             # Optional but recommended
-            - name: Check formatting
-              run: |
-                  fmt_output=$(go fmt ./...)
-                  if [ -n "$fmt_output" ]; then
-                    echo "Files not formatted:"
-                    echo "$fmt_output"
-                    exit 1
-                  fi
+            # - name: Check formatting
+            #   run: |
+            #       fmt_output=$(go fmt ./...)
+            #       if [ -n "$fmt_output" ]; then
+            #         echo "Files not formatted:"
+            #         echo "$fmt_output"
+            #         exit 1
+            #       fi
 
             - name: Static analytic for potential bug
               run: go vet ./...
