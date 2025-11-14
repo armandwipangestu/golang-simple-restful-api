@@ -55,4 +55,4 @@ jobs:
             #   run: go test ./... -v
 
             - name: Build app (for validation)
-              run: go build -o build/app ./...
+              run: go build -o build/app ./cmd/server
